@@ -24,8 +24,9 @@ type Message struct {
 
 /**
  * Serialize message
+ * Implement TextMarshaler interface
  */
-func (m Message) Marshal() ([]byte, error) {
+func (m Message) MarshalText() ([]byte, error) {
 	var res bytes.Buffer
 
 	// Serialize fields

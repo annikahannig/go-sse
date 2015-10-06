@@ -16,7 +16,7 @@ func TestMessageSerialization(t *testing.T) {
 		Data: payload,
 	}
 
-	data, _ := m.Marshal()
+	data, _ := m.MarshalText()
 	fmt.Println("Serialized message:")
 	fmt.Println(string(data))
 
@@ -25,7 +25,7 @@ func TestMessageSerialization(t *testing.T) {
 		Data:  multilinePayload,
 	}
 
-	data, _ = m.Marshal()
+	data, _ = m.MarshalText()
 	fmt.Println("Serialized message:")
 	fmt.Println(string(data))
 
