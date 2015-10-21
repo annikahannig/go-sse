@@ -16,6 +16,8 @@ import (
 	"strings"
 )
 
+// Use multiline string data, whenever you want
+// to send raw strings
 type MultilineStringData string
 
 type Message struct {
