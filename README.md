@@ -1,5 +1,6 @@
 
 # Server Sent Events
+[![Build Status](https://travis-ci.org/mhannig/go-sse.svg)](https://travis-ci.org/mhannig/go-sse)
 
 This is a server sent events implementation.
 
