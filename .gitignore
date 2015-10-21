@@ -1,4 +1,8 @@
 
+# Editors
 *.swp
 *.swp
+
+# Ignore coverage report
+coverage.out
 
