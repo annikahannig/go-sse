@@ -18,7 +18,7 @@ This serializes into the following ```[]byte``` representation:
 
 ```
 event: my event\n
-data: some data\n
+data: "some data"\n
 \n
 ```
 
