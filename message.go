@@ -78,6 +78,7 @@ func (m Message) MarshalText() ([]byte, error) {
 	}
 
 	// We are done here.
+	res.WriteString("\n")
 
 	return res.Bytes(), nil
 }
